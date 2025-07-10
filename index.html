@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://cardadfar.github.io/stuco_webdev_website/assets/files/html_starter.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Give Me a Title!</title>                           <!-- Give Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Give Me a Title!_files/style.css">  <!-- Insert StyleSheet -->
+    <link rel="icon" href="https://cardadfar.github.io/stuco_webdev_website/assets/files/cool-icon.png">                    <!-- Insert Icon -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        
+    </script>
+</head>
+<body>
+
+    <style type="text/css">
+        body, html {
+            margin: 0;
+            height: 100%;
+        }
+
+        .parallax-img {
+            position: relative;
+            opacity: 0.65;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        p {
+            font-family:  Oswald;
+        }
+        a {
+            font-family:  Oswald;
+            text-decoration: none;
+        }
+        #img {
+            width: 300px;
+            text-align: center;
+            
+        }
+        @media (max-width: 480px) {
+                #img {
+                    width: 100px;
+                    text-align: center;}
+
+            }
+
+        .nav-bar{
+            width: 200px;
+            height: 100%;
+            background: darkblue;
+            margin-top: 0;
+            position: sticky;
+            top: 0px;
+            opacity: 80%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .nav-bar>.element {
+            width: 100%;
+            line-height: 50px;
+            color: floralwhite;
+            text-align: center;
+            margin: 0;
+            display: inline-block;
+            margin-left:  0px;
+        }
+        .nav-bar>.element:hover {
+            color: mediumpurple;
+            text-decoration: underline;
+            transition-property: color;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-delay: 0s; 
+        }
+        
+
+
+
+
+
+
+        .center {
+            width: 70%;
+            margin-left: 15%;
+        }
+        .center-b {
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 200px;
+        }
+
+        .center_img {
+            text-align: center;
+        }
+
+        .input_class {
+            width: 100%;
+            font-size: 12px;
+
+        }
+        .font_style {
+            color:  grey;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+            
+        .imageee {
+            width: 300px;
+            height: 400px;
+            display:  inline-block;
+            opacity: 100%;
+        }
+
+
+
+
+        .column {
+            float: left;
+            margin: 0;
+            padding: 5px;
+            display: inline-block;
+            width: 30%;
+            color: black;
+            text-align: center;
+
+        }
+        .row {
+            width: 70%;
+            margin-left: 15%;
+            height:300px;
+
+
+        }
+        .price {
+            opacity: 0%;
+            margin-left: 30px;
+            text-align: center;
+
+        }
+        .first {
+            
+            margin-left: 30px;
+            vertical-align: center;
+        }
+        .searchbar {
+            text-align: center;
+            margin-left: 75%;
+            position: sticky;
+            display: block;
+        }
+    </style>
+
+    
+
+
+
+    <div class=font_style>
+        <p> Welcome! Click image for description </p>
+    </div>
+
+    <input class=searchbar type="text" placeholder="Search for images">
+
+    <div class=nav-bar>
+        <a href='index.html' class=element> Home </a>
+        <a href='experience.html' class=element> Experience </a>
+        <a href='services.html' class=element> Services </a>
+        <a href='personal.html' class=element> About </a>
+        <a href='contact.html' class=element> Contact </a>
+    </div>
+
+
+    <div style="width: calc(100% - 250px); display:inline-block;">
+
+        <div class='imageee NatureMadhubani'>
+            <img class = first id=img src='NatureMadhubani.png'>
+            <p class=price> Nature Madhubani </p>
+        </div>
+        <div class='imageee bridalmadhubani'>
+            <img class = first id=img src='bridalmadhubani.png'>
+            <p class=price> Bridal Madhubani </p>
+        </div>
+        <div class='imageee ramasitamadhubani'>
+            <img class = first id=img src='ramasitamadhubani.png'>
+            <p class=price> Rama Sita Madhubani </p>
+        </div>
+        <br>
+
+
+        <div class='imageee temple'>
+            <img class = first id=img src='temple.png'>
+            <p class=price> Temple Pen Drawing </p>
+        </div>
+        <div class='imageee GaneshaThanjavurArt'>
+            <img class = first id=img src='GaneshaThanjavurArt.jpg'>
+            <p class=price> Ganesha Thanjavur </p>
+        </div>
+        <div class='imageee gandhi'>
+            <img class = first id=img src='gandhi.png'>
+            <p class=price> Gandhi Colored Pencil </p>
+        </div>
+
+        <br>
+
+        <div class='imageee doggy'>
+            <img class = first id=img src='doggy.png'>
+            <p class=price> Dog White Charcoal </p>
+        </div>
+        <div class='imageee HandDrawing'>
+            <img class = first id=img src='HandDrawing.jpg'>
+            <p class=price> Hand Drawing Charcoal </p>
+        </div>
+        <div class='imageee EyeDrawing'>
+            <img class = first id=img src='EyeDrawing.jpg'>
+            <p class=price> Eye Drawing Charcoal </p>
+        </div>
+
+        <br>
+
+        <div class='imageee Introspection'>
+            <img class = first id=img src='Introspection.png'>
+            <p class=price> Introspection Portrait Charcoal </p>
+        </div>
+        <div class='imageee butterfly'>
+            <img class = first id=img src='butterfly.png'>
+            <p class=price> Butterfly Watercolor </p>
+        </div>
+        <div class='imageee orchids'>
+            <img class = first id=img src='orchids.png'>
+            <p class=price> Orchids Multimedia </p>
+        </div>
+
+        <br>
+
+        <div class='imageee beardrawing'>
+            <img class = first id=img src='beardrawing.png'>
+            <p class=price> Bear Drawing Acrylic and Pen </p>
+        </div>
+        <div class='imageee succulents'>
+            <img class = first id=img src='succulents.png'>
+            <p class=price> Succulents Pot Acrylic </p>
+        </div>
+        <div class='imageee heffalumpkeychain'>
+            <img class = first id=img src='heffalumpkeychain.png'>
+            <p class=price> Heffalump Keychain Shrink Plastic </p>
+        </div>
+        <br>
+
+
+        <div class='imageee calligraphy'>
+            <img class = first id=img src='calligraphy.png'>
+            <p class=price> Calligraphy </p>
+        </div>
+        <div class='imageee nytimes'>
+            <img class = first id=img src='nytimes.jpg'>
+            <p class=price> New York Times White Board Marker </p>
+        </div>
+        <div class='imageee cheerfulstickers'>
+            <img class = first id=img src='cheerfulstickers.png'>
+            <p class=price> Cheerful Stickers with Copic </p>
+        </div>
+
+        <br>
+
+        <div class='imageee soaps'>
+            <img class = first id=img src='soaps.png'>
+            <p class=price> Soaps - Melt and Pour </p>
+        </div>
+        <div class='imageee tshirtcricut'>
+            <img class = first id=img src='tshirtcricut.png'>
+            <p class=price> T shirt with Cricut </p>
+        </div>
+        <div class='imageee heffalumpkeychain'>
+            <img class = first id=img src='heffalumpkeychain.png'>
+            <p class=price> Heffalump Keychain </p>
+        </div>
+
+        <br>
+
+        <div class='imageee SanjanaKrishnaHalloweenContest'>
+            <img class = first id=img src='SanjanaKrishnaHalloweenContest.jpeg'>
+            <p class=price> Halloween Pumpkin Tartan </p>
+        </div>
+        <div class='imageee feltingfoxes'>
+            <img class = first id=img src='feltingfoxes.png'>
+            <p class=price> Felting Fox </p>
+        </div>
+        <div class='imageee crochetdog'>
+            <img class = first id=img src='crochetdog.png'>
+            <p class=price> Crochet Dog </p>
+        </div>
+
+        <br>
+
+        <div class='imageee gingerbread'>
+            <img class = first id=img src='gingerbread.png'>
+            <p class=price> Gingerbread house </p>
+        </div>
+        <div class='imageee fondantroses'>
+            <img class = first id=img src='fondantroses.png'>
+            <p class=price> Fondant Rose </p>
+        </div>
+        <div class='imageee bow'>
+            <img class = first id=img src='bow.png'>
+            <p class=price> Bow with ribbon </p>
+        </div>
+
+        <br>
+
+        <div class='imageee embroidery'>
+            <img class = first id=img src='embroidery.png'>
+            <p class=price> Embroidery </p>
+        </div>
+        <div class='imageee basket'>
+            <img class = first id=img src='basket.jpg'>
+            <p class=price> Basket weaving </p>
+        </div>
+        <div class=imageee>
+            <img class = first id=img src=''>
+            <p class=price> Nature Madhubani </p>
+        </div>
+
+        <br>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+    <div class=center-b>
+        <p> Why do you like drawing? </p>
+        <input class=input_class type="text" name="input_field" placeholder="because it make's me happy...">
+    </div>
+    <script type="text/javascript">
+
+        function loadData(k) {
+            var lookup = k.toLowerCase();
+            $.getJSON('projects.json',function(data) {
+                $.each(data,function(key,val){
+                    var sub_key = '.'+key;
+                    $(sub_key).css('display','none');
+                });
+                $.each(data,function(key,val){
+                    for (var i = 0; i<val.length; i++)
+                    {
+                        console.log(lookup + " vs " + val[i]);
+                        if (val[i].includes(lookup))
+                        {
+                            var main_key = '.' + key;
+                            $(main_key).css('display','inline-block');
+                        }
+
+                    }
+                });
+
+
+            });
+
+
+
+
+        }
+
+
+        $(document).ready(function() {
+
+        $(".a").hover( function() { 
+        $(this).animate({'text-decoration':'underline'},1000);
+        });
+       
+        var clicks=0;
+        $(".imageee").click( function() {
+            clicks++;
+            if (clicks%2==0)
+                {$(".imageee").animate({'opacity':'100%'},500);
+                $(".price").animate({'opacity':'0%'},500);}
+
+            else{
+                $(".imageee").css('opacity','0%');
+                $(this).css('opacity','100%');
+                $(".price").animate({'opacity':'100%'},1000);}
+            
+        });
+
+        $(".searchbar").keyup(function(event){
+            var email = $(this).val();
+            console.log(email);
+            loadData(email)
+        });
+
+
+
+
+        });
+        
+        
+
+    </script>
+
+    
+
+    
+
+
+    
+
+</body>
+</html>
+
